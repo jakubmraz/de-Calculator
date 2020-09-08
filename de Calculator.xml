@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>de Calculator</name>
+    </assembly>
+    <members>
+        <member name="T:de_Calculator.Calculator">
+            <summary>
+            Calculator class containing the numerical operation methods.
+            </summary>
+        </member>
+        <member name="M:de_Calculator.Calculator.Add(System.Double,System.Double)">
+            <summary>
+            Takes the base number and adds the second number to it.
+            </summary>
+            <param name="baseNumber"></param>
+            <param name="numberToAdd"></param>
+            <returns>double</returns>
+        </member>
+        <member name="M:de_Calculator.Calculator.Subtract(System.Double,System.Double)">
+            <summary>
+            Takes the base number and subtracts the second number from it.
+            </summary>
+            <param name="baseNumber"></param>
+            <param name="numberToSubtract"></param>
+            <returns>double</returns>
+        </member>
+        <member name="M:de_Calculator.Calculator.Multiply(System.Double,System.Double)">
+            <summary>
+            Takes the base number and multiplies it by the second number.
+            </summary>
+            <param name="baseNumber"></param>
+            <param name="numberToMultiplyWith"></param>
+            <returns>double</returns>
+        </member>
+        <member name="M:de_Calculator.Calculator.Divide(System.Double,System.Double)">
+            <summary>
+            Takes the base number and divides it by the second number. Cannot divide by 0.
+            </summary>
+            <param name="baseNumber"></param>
+            <param name="numberToDivideWith"></param>
+            <returns>double</returns>
+        </member>
+    </members>
+</doc>
